@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_left nice_view_adapter nice_view
-  - board: nice_nano
+  - board: nrfmicro/nrf52833/zmk
     shield: corne_right nice_view_adapter nice_view
 #  - board: nice_nano_v2 #pour faire un reset du corne
 #    shield: settings_reset
