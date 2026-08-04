@@ -8,7 +8,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -188,7 +187,7 @@
             //                    |     | SPC | PKSP |   | ALT | ENT  |    |
 
             bindings = <
-&kp TAB    &kp EXCL     &kp AT     &kp HASH        &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR  &kp UNDER
+&none      &kp EXCL     &kp AT     &kp HASH        &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR  &kp UNDER
 &kp ESC    &kp TILDE2   &kp TILDE  &kp UNDERSCORE  &kp UNDER         &kp GRAVE    &kp BSLH   &kp RBKT  &kp MINUS  &kp EQUAL  &kp LBKT  &kp GRAVE
 &kp LSHFT  &key_repeat  &repet10   &mkp LCLK       &mkp MCLK         &mkp RCLK    &kp UNDER  &kp PLUS  &kp LBRC   &kp RBRC   &kp PIPE  &kp TILDE
                                    &kp LGUI        &maj RIGHT RA(I)  &mo 1        &mo 2      &trans    &trans
